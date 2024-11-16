@@ -1,7 +1,11 @@
 export const Section5Item = (props) => {
     return (
         <>
-            <div className="bg-[#F6F8FD] p-[32px] rounded-[16px]">
+            <div 
+                className="bg-[#F6F8FD] p-[32px] rounded-[16px]"
+                data-aos="zoom-in-right"
+                data-aos-duration="1000"
+            >
                 <p className="text-dark text-[20px] font-[700] text-center mb-[37px]">
                     {props.review}
                 </p>

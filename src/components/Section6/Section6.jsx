@@ -16,7 +16,11 @@ export const Section6 = () => {
 
 
                         {/* button */}
-                        <div className="flex items-center gap-x-[16px]">
+                        <div 
+                            className="flex items-center gap-x-[16px]"
+                            data-aos="flip-left"
+                            data-aos-duration="800"
+                        >
                             <a 
                                 href="/"
                                 className="py-[16px] px-[28px] border-[1px] border-primary rounded-[12px] text-primary text-[14px] font-[700] hover:bg-primary hover:text-white hover:duration-1000"

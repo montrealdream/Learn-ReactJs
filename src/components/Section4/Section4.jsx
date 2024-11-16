@@ -9,7 +9,11 @@ export const Section4 = () => {
             <section className="py-[120px]">
                 <div className="container mx-auto">
                     <div className="flex gap-x-[110px]">
-                        <div className="w-[50%]">
+                        <div 
+                            className="w-[50%]"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                        >
                             <Section4BoxTitle />
 
                             <div className="flex items-center flex-wrap gap-y-[60px] gap-x-[40px]">

@@ -8,6 +8,11 @@ import { Section4 } from './components/Section4/Section4';
 import { Section5 } from './components/Section5/Section5';
 import { Section6 } from './components/Section6/Section6';
 
+import AOS from 'aos'
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+AOS.init();
+
 function App() {
   return (
     <>

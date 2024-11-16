@@ -1,7 +1,11 @@
 export const Section4Item = (props) => {
     return (
         <>
-            <div className="w-[237px] flex flex-col gap-y-[2px]">
+            <div 
+                className="w-[237px] flex flex-col gap-y-[2px]"
+                data-aos="zoom-in-up"
+                data-aos-duration="1000"
+            >
                 <div className="text-dark text-[36px] font-[800]">
                     {props.number}
                 </div>

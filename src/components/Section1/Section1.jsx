@@ -8,9 +8,12 @@ export const Section1 = () => {
             <section className="">
                 <div className="container mx-auto">
                     <div className="flex">
-                        <div className="pt-[98px] pb-[113px] pr-[114px]">
+                        <div 
+                            className="pt-[98px] pb-[113px] pr-[114px]"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                        >
                             {/* content */}
-
                             <p 
                                 className="flex items-center gap-x-[11px] text-[14px] text-primary font-[700] uppercase mb-[10px]"
                             >
@@ -48,6 +51,7 @@ export const Section1 = () => {
                                 </a>
                             </div>
                         </div>
+                        {/* image */}
                         <div className="">
                             <img className="object-cover" src={Section1ImageBackGround} alt="" />
                         </div>
